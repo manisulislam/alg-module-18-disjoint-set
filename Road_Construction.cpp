@@ -40,7 +40,7 @@ void dsu_union(int a, int b){
         //when leader B
         parent[leaderA]=leaderB;
         parentSize[leaderB]+=parentSize[leaderA];
-        mx=max(mx,parentSize[leaderA]);
+        mx=max(mx,parentSize[leaderB]);
     }
 
 
